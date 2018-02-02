@@ -1,0 +1,59 @@
+V "GNAT Lib v2011"
+A -gnatwu
+A -gnat05
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U cambio_digito_i%b	cambio_digito_i.adb	1ce56874 NE OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W system.exn_int%s	s-exnint.adb		s-exnint.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-inteio.ads		20110428140900 f64b89a4
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-tiinio.ads		20110428140902 aa04e5d6
+D a-unccon.ads		20110428140902 f9eb8f06
+D cambio_digito_i.adb	20141023013442 eaaee1d0
+D interfac.ads		20110428140906 f77d8799
+D i-cstrea.ads		20110428140906 1bd72c32
+D system.ads		20110428140910 bc164b96
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-exnint.ads		20110428140906 428c1c5c
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 12|2r6 2r30
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[10|45] 12|2w10 2r34
+X 10 a-tiinio.ads
+65U14*Put 12|12s35[5|18]
+X 12 cambio_digito_i.adb
+5U12*Cambio_Digito_i 5b12 5=30 5>52 5>54 15l5 15t20
+5i30 Num{integer} 12r11 13m35 13r41 14m24 14r30
+5i52 I{integer} 12r20 13r59 14r48
+5i54 Val{integer} 13r7 13r26 14r19
+9i1 Pon{integer} 13m20 13r48 14m9 14r37
+9i5 Dig{integer} 12m4 12r40 13r11 13r30 14r15
+

@@ -1,0 +1,102 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatwu
+A -gnat05
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+R nnnnnnnnnnnnnnnvnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U ppal%b		ppal.adb		7844482e NE OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-flteio.ads		20110428140900 e18a47a0
+D a-inteio.ads		20110428140900 f64b89a4
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-tiflio.ads		20110428140902 56fbda09
+D a-tiinio.ads		20110428140902 aa04e5d6
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-cstrea.ads		20110428140906 1bd72c32
+D ppal.adb		20150118203302 57e873fe
+D system.ads		20110428140910 bc164b96
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imgboo.ads		20110428140906 f5d971eb
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 1r19 1r39 2r5 2r18 2r38
+X 5 a-flteio.ads
+20K13*Float_Text_IO[11|45] 16|1w43 2r42
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[12|45] 16|1w23 2r22
+X 10 a-textio.ads
+49K13*Text_IO 471e16 16|1w10 2r9
+166U14*New_Line 16|19s17 19s26 24s19 25s16 25s25 30s16 30s25 39s17 40s40
+. 40s49 67s27 69s7 69s16
+208U14*Put 16|29s13
+242U14*Put 16|16s7 26s7 32s7 40s7 58s7 65s7 66s7 68s7
+263U14*Put_Line 16|20s7
+X 11 a-tiflio.ads
+67U14*Put 16|69s42[5|20]
+X 12 a-tiinio.ads
+55U14*Get 16|58s26[6|18]
+65U14*Put 16|18s10[6|18] 23s13[6|18] 35s10[6|18] 40s26[6|18]
+X 16 ppal.adb
+3U11*Ppal 3b11 70l5 70t9
+4A9 T_Vector(integer)<integer> 12r37 12r104 52r9
+5A9 T_Matriz(integer)<integer><integer> 12r49 52r21
+6i4 max{integer} 7r32 8r70
+7A9 T_Nombres(character)<integer> 8r36
+8R9 T_Lista 8e85 12r69 52r33
+8a27 Nombres{7A9} 29r19 62m9
+8i47 Cont{integer} 27m9 28r21 63m9
+12U14 SUBprocedimiento 12b14 12>32 12>47 12=59 12>78 12=93 41l8 41t24 64s7
+12a32 V{4A9} 18r14
+12a47 M{5A9} 23r17
+12r59 L{8R9} 27m7 28r19 29r17
+12i78 I{integer} 15r10
+12a93 V2{4A9} 33r24 33r34 34m10 35r14 36r13 36r21
+13i7 Cnt{positive} 37m13 37r18 40r30
+17i11 J{integer} 18r16
+21i11 K{integer} 23r19
+22i14 H{integer} 23r21
+28i11 P{integer} 29r27
+33i11 W{integer} 35r17 36r16 36r24
+44V14 SUBfuncion{boolean} 44b14 44>32 49l8 49t18 66s25 67s10
+44i32 Num{natural} 47r12
+45i7 Aux{natural} 47m7 48r14
+52a4 V{4A9} 59m7 64r24
+52a6 V2{4A9} 60m7 64m32 64r32
+52a19 M{5A9} 61m7 64r26
+52r31 L{8R9} 62m7 63m7 64m28 64r28
+52i42 Num{natural} 58m30 58r30 66r36 67r21
+52i67 I{integer} 56m7 64r30
+52f79 Real{float} 69m26 69r46
+53b4 X{boolean} 67m7 68r25
+

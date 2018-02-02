@@ -1,0 +1,70 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatwu
+A -gnat05
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U principal%b		ordenar_burbuja.adb	819bc7ca NE OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-inteio.ads		20110428140900 f64b89a4
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-tiinio.ads		20110428140902 aa04e5d6
+D a-unccon.ads		20110428140902 f9eb8f06
+D interfac.ads		20110428140906 f77d8799
+D i-cstrea.ads		20110428140906 1bd72c32
+D ordenar_burbuja.adb	20141118032420 77d04e6e
+D system.ads		20110428140910 bc164b96
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 1r30
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[10|45] 14|1w10 1r34
+X 10 a-tiinio.ads
+65U14*Put 14|38s10[5|18]
+X 14 ordenar_burbuja.adb
+3U11*Principal 3b11 48l5 48t14
+4A6 T_Vector(integer)<integer> 7r41 10r32 35r44 43r3
+7U11 Ordenar_Seleccion 7b11 7=30 32l8 32t25 46s4
+7a30 V{4A6} 26r16 26r25 27r28 28r16 29m10 29r17 30m10
+10V13 Pos_Min_Desde{integer} 10b13 10>28 10>42 21l8 21t21 27s14
+10a28 V{4A6} 15r21 16r13 16r18
+10i42 I{natural} 13r28 15r16
+13i7 Pos_Min{natural} 16r20 17m13 20r14
+15i11 J{integer} 16r15 17r23
+23i4 K{natural} 27m10 29r19 30r12
+24i4 Aux{integer} 28m10 30r17
+26i11 J{integer} 27r31 28r18 29r12
+35U17 ESCRIBIR_VECTOR 35b17 35=34 40l8 40t23 47s4
+35a34 V{4A6} 37r19 38r14
+37i11 H{integer} 38r16
+43a1 V{4A6} 45m4 46m22 46r22 47m20 47r20
+

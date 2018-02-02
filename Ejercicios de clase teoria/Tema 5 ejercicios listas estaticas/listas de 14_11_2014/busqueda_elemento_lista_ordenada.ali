@@ -1,0 +1,71 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatwu
+A -gnat05
+P SS ZX
+R nnnnnnnnnnnnnnnvnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U busqueda_elemento_lista_ordenada%b  busqueda_elemento_lista_ordenada.adb  334adea6 NE OO SU IU KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-inteio.ads		20110428140900 f64b89a4
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-tiinio.ads		20110428140902 aa04e5d6
+D a-unccon.ads		20110428140902 f9eb8f06
+D busqueda_elemento_lista_ordenada.adb  20150118204114 fd6ca2d6
+D interfac.ads		20110428140906 f77d8799
+D i-cstrea.ads		20110428140906 1bd72c32
+D system.ads		20110428140910 bc164b96
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-imgboo.ads		20110428140906 f5d971eb
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 1r22 2r6 2r30
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[10|45] 12|2w10 2r34
+X 9 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r26
+166U14*New_Line 12|29s4
+242U14*Put 12|25s4 28s4 30s22 30s54
+X 10 a-tiinio.ads
+55U14*Get 12|25s50[5|18]
+X 12 busqueda_elemento_lista_ordenada.adb
+4U11*Busqueda_Elemento_Lista_ordenada 4b11 32l6 32t38
+6i4 MaxNum{integer} 7r32
+7A9 T_Numeros(integer)<integer> 8r35
+8R9 T_Lista 8e71 11r18 23r4
+8a27 Numeros{7A9} 16r56 17r16 26m6
+8i46 Cont{natural} 16r34 27m6
+11V10 ESTA{boolean} 11b10 11>16 11>26 21l5 21t9 28s22 30s7
+11r16 L{8R9} 16r32 16r54 17r14
+11i26 N{integer} 16r49 17r12
+14b4 HAY{boolean} 16r16 17m32 20r13
+14i24 I{integer} 16r29 16r64 17r24 18m9 18r12
+23r1 L{8R9} 26m4 27m4 28r27 30r12
+23i13 N{integer} 25m54 25r54 28r29 30r14
+

@@ -1,0 +1,15 @@
+WITH Ada.Text_IO, Ada.Integer_Text_IO;USE Ada.Text_IO, Ada.Integer_Text_IO;
+
+
+PROCEDURE Escribir_Vector_sub (V: IN T_Vector) IS      --para hacer "put (v)"
+   I:Integer;
+
+BEGIN
+   FOR I IN 1..10 LOOP
+      Put (V(I));            --no puedes decirle put(v)
+   END LOOP;
+
+END Escribir_Vector_sub;
+
+
+

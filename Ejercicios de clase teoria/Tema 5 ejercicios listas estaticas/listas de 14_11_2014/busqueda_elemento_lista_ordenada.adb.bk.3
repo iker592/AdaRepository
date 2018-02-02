@@ -1,0 +1,32 @@
+WITH Ada.Text_IO;USE Ada.Text_IO;
+WITH Ada.Integer_Text_IO;USE Ada.Integer_Text_IO;
+
+PROCEDURE Busqueda_Elemento_Lista_ordenada IS
+
+   MaxNum: CONSTANT Integer:=20;
+   TYPE T_Numeros IS ARRAY (1..MaxNum) OF Integer;
+   TYPE T_Lista IS RECORD Numeros:t_Numeros; Cont: Natural; END RECORD;
+
+
+FUNCTION ESTA (L:T_lista;N: integer) RETURN Boolean IS
+   -- pre: N>0
+   -- post: devuelve true si N esta en la lista.
+   HAY:boolean:=FALSE; I:integer:=1;
+  BEGIN
+     WHILE NOT HAY AND THEN I<=L.Cont AND  N >= L.numeros(I) LOOP
+        IF N=L.Numeros(I) THEN HAY := TRUE; END IF;
+        I:=I+1;
+     END LOOP;
+     RETURN HAY ;
+END ESTA;
+
+L: T_lista; N:Integer;
+BEGIN
+   put("Inserta el numero que quieres buscar "); get(N);
+   L.numeros:= (1,2,3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21);
+   L.cont:=20;
+   Put(Boolean'Image(ESTA(L,N)));
+   New_Line;
+   IF ESTA(L,N) THEN put("Numero encontrado "); ELSE put ("El numero no esta en la lista");END IF;
+
+END  Busqueda_Elemento_Lista_ordenada;

@@ -1,0 +1,37 @@
+--Ejercicio 6 (laboratorio 1)
+--Dada una secuencia de dígitos (números entre el 0 y el 9)
+--terminada en cualquier número negativo (ese será el centinela),
+--calcula cuál es el entero al que representa esos dígitos.
+
+WITH Ada.Integer_Text_Io;
+USE Ada.Integer_Text_Io;
+WITH Ada.Text_IO;
+USE Ada.Text_IO;
+
+PROCEDURE calc_entero IS
+ -- Entrada: 1 secuencia S (EE)
+ -- Pre: N>0
+ -- Salida: 1 entero (SE)
+ -- Post: dar el valor entero que representa la secuencia introducida
+
+   N:Integer;
+   exp,factor,valor: integer:=0;
+BEGIN
+   Get(N);
+   factor:=N;
+
+   WHILE N >= 0 LOOP
+      factor:=N;
+      Valor := Valor+(Factor*10**Exp);
+      exp:=exp+1;
+      Get(N);
+   END LOOP;
+
+   Put (valor,0);
+
+END calc_entero;
+
+-- Casos de prueba:
+-- N = 2 5 6 -1   -->  valor=
+-- N =  0 -1   -->  valor=
+

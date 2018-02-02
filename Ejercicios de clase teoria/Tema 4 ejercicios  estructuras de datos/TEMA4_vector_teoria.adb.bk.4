@@ -1,0 +1,41 @@
+--TEMA 4 ESTRUCUTURAS DE DATOS
+
+      --VECTORES
+
+
+WITH Ada.Text_IO, Ada.Integer_Text_IO;USE Ada.Text_IO, Ada.Integer_Text_IO;
+
+PROCEDURE Vector_Teoria IS
+
+
+   TYPE T_Notas IS ARRAY (1..8) OF Integer; --Declaracion del array (el t_notas es el tipo del array, que podemos poner lo que  queramos
+   TYPE T_bool IS ARRAY (1..8) OF Boolean;  -- los array pueden ser int, bool, character, ...
+   Notas_Pablo:T_Notas;                     --declarar variable que va a usar las casillas de la memoria del vector de array de tipo t_notas
+
+   --get(N) ----> es un subprograma de este tipo:     get (x: OUT Integer); y coge el valor del teclado y de la libreria de enteros
+
+   --Put(x) ----> es un subprograma de este tipo:     put ( x IN Integer); e imprime el valor cogiendolo de la libreria de enteros en este caso pero puede ser ch, bool..
+
+   --LOS STRING SON ARRAYS DE CHARACTERES (string es una forma abreviada de decir array de characteres)
+
+   nombre_Eva:string (1..15); --ó TYPE nombre_alum IS ARRAY (1..15) OF character; nombre_eva: nombre_alum;
+begin
+
+
+   X:=Notas_Pablo(4); -- para coger el numero de la caslla nº 4 y meterlo en la casilla de memoria X
+   Notas_Pablo (5):= 3; --para meter 3 en la casilla nº 5 del vector
+   Notas_Pablo(4):= Notas_Eva(7);  -- para meter el valor de un array en otro
+   Notas_Pablo(4..8) := Notas_Pablo_Aprob(1..4);
+
+   Get (Notas_Pablo(2)); --conseguir desde el teclado un nº y asignarlo en la variable notas_pablo(2)
+
+   FOR I IN 1..8 LOOP
+      get (Notas_Pablo (i);  --para meter desde el teclado las notas en las casillas de la 1 a la 8
+   END LOOP;
+
+  FOR I IN 5..8 LOOP
+      Notas_Pablo (i):= 5;  --para asignar 5 a los valores del 5 6 7 8
+   END LOOP;
+
+   BEGIN
+      

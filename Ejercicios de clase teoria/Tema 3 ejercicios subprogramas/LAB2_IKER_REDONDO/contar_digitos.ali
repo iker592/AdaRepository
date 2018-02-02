@@ -1,0 +1,16 @@
+V "GNAT Lib v2011"
+A -gnatwu
+A -gnat05
+P ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U contar_digitos%b	contar_digitos.adb	fb52d13d NE OO SU IL KU
+
+D contar_digitos.adb	20141023104126 fb52d13d
+D system.ads		20110428140910 bc164b96
+X 1 contar_digitos.adb
+1V10*contar_digitos{integer} 1b10 1>26 22l5 22t19
+1i26 N{integer} 6r9
+2i4 Cnt1{integer} 11m7 11r13 17m7 17r13 21r11
+3i4 Num{integer} 6m4 7r7 9r10 10m7 10r12 14r10 15r13 16m7 16r12
+

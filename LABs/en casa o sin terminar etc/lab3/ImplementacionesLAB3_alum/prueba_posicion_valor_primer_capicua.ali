@@ -1,0 +1,84 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatwu
+A -gnat05
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+R nnnnnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U prueba_posicion_valor_primer_capicua%b  prueba_posicion_valor_primer_capicua.adb  2bf82a2b NE OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W es_capicua%b		es_capicua.adb		es_capicua.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-inteio.ads		20110428140900 f64b89a4
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-tiinio.ads		20110428140902 aa04e5d6
+D a-unccon.ads		20110428140902 f9eb8f06
+D es_capicua.adb	20141105201540 25bec4a4
+D interfac.ads		20110428140906 f77d8799
+D i-cstrea.ads		20110428140906 1bd72c32
+D prueba_posicion_valor_primer_capicua.adb  20141105204144 c06092ff
+D system.ads		20110428140910 bc164b96
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r19 2r5 2r18
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[10|45] 15|1w23 2r22
+X 9 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 2r9
+166U14*New_Line 15|54s4 55s4 67s4 68s4 80s4 81s4 93s4 94s4
+208U14*Put 15|32s7
+242U14*Put 15|46s4 49s4 50s4 52s4 59s4 62s4 63s4 65s4 72s4 75s4 76s4 78s4
+. 85s4 88s4 89s4 91s4
+263U14*Put_Line 15|36s7 45s4 58s4 71s4 84s4 95s4
+X 10 a-tiinio.ads
+65U14*Put 15|34s10[5|18] 51s4[5|18] 53s4[5|18] 64s4[5|18] 66s4[5|18] 77s4[5|18]
+. 79s4[5|18] 90s4[5|18] 92s4[5|18]
+X 12 es_capicua.adb
+2V10*Es_Capicua{boolean} 15|3w6 21s16
+X 15 prueba_posicion_valor_primer_capicua.adb
+5U11*Prueba_Posicion_Valor_Primer_Capicua 5b11 97l5 97t41
+7A9 T_Vector(integer)<integer> 10r23 28r14 39r10
+9U14 Posicion_Valor_Primer_Capicua 9b14 10>10 11<10 12<10 25l8 25t37 48s4
+. 61s4 74s4 87s4
+10a10 V{7A9} 20r18 21r27 21r63 24r27
+11i10 Pos{integer} 21m49 24m39
+12i10 Val{integer} 21m57 24m47
+17b7 HAY{boolean} 20r33 21m38 24r16
+17i27 I{integer} 20r15 21r29 21r54 21r65 22m18 22r21 24r24
+27U14 Escribir 27b14 28>10 37l8 37t16 47s4 60s4 73s4 86s4
+28a10 V{7A9} 33r16 34r14
+33i11 I{integer} 34r16
+39a4 V{7A9} 44m4 47r13 48r35 57m4 60r13 61r35 70m4 73r13 74r35 83m4 86r13
+. 87r35
+40i4 Pos{integer} 48m37 48r37 51r8 61m37 61r37 64r8 74m37 74r37 77r8 87m37
+. 87r37 90r8
+41i4 Val{integer} 48m41 48r41 53r8 61m41 61r41 66r8 74m41 74r41 79r8 87m41
+. 87r41 92r8
+

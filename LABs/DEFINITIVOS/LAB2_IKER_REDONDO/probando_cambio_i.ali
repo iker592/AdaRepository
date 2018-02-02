@@ -1,0 +1,67 @@
+V "GNAT Lib v2011"
+M P W=b
+A -gnatwu
+A -gnat05
+A -mtune=generic
+A -march=pentiumpro
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnn
+
+U probando_cambio_i%b	probando_cambio_i.adb	a205e7fa NE OO SU KU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W cambio_digito_i%b	cambio_digito_i.adb	cambio_digito_i.ali
+
+D ada.ads		20110428140902 3ffc8e18
+D a-except.ads		20110428140900 4759ecee
+D a-finali.ads		20110428140900 b333d305
+D a-fihema.ads		20110428140900 1940728a
+D a-inteio.ads		20110428140900 f64b89a4
+D a-ioexce.ads		20110428140900 8b9de6cd
+D a-stream.ads		20110428140902 2ca4ee37
+D a-tags.ads		20110428140902 7b33f560
+D a-textio.ads		20110428140902 386df5d4
+D a-tiinio.ads		20110428140902 aa04e5d6
+D a-unccon.ads		20110428140902 f9eb8f06
+D cambio_digito_i.adb	20141023013442 eaaee1d0
+D interfac.ads		20110428140906 f77d8799
+D i-cstrea.ads		20110428140906 1bd72c32
+D probando_cambio_i.adb	20141023115050 868d7a5a
+D system.ads		20110428140910 bc164b96
+D s-crtl.ads		20110428140906 ac77b159
+D s-exctab.ads		20110428140906 66e51330
+D s-exnint.ads		20110428140906 428c1c5c
+D s-ficobl.ads		20110428140906 443b9d66
+D s-finroo.ads		20110428140906 2dd85ce2
+D s-parame.ads		20110428140908 03aa3b01
+D s-pooglo.ads		20110428140908 542f33d0
+D s-secsta.ads		20110428140908 eea35a36
+D s-soflin.ads		20110428140908 607487c5
+D s-stache.ads		20110428140908 596fc1b4
+D s-stalib.ads		20110428140908 f78bcf95
+D s-stoele.ads		20110428140908 facd7d98
+D s-stoele.adb		20110428140908 afc5dc80
+D s-stopoo.ads		20110428140908 5c51faf9
+D s-traent.ads		20110428140908 5221ee41
+D s-unstyp.ads		20110428140908 6ae15c76
+D s-wchcon.ads		20110428140910 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 15|2r6 2r27 2r44 2r65
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[10|45] 15|2w10 2r48
+X 9 a-textio.ads
+49K13*Text_IO 471e16 15|2w31 2r69
+166U14*New_Line 15|9s43 10s71 11s64
+242U14*Put 15|9s4 10s4 11s4
+X 10 a-tiinio.ads
+55U14*Get 15|9s33[5|18] 10s63[5|18] 11s54[5|18]
+65U14*Put 15|13s4[5|18]
+X 12 cambio_digito_i.adb
+5U12*Cambio_Digito_i 15|1w6 12s4
+X 15 probando_cambio_i.adb
+4U11*Probando_cambio_I 4b11 14l5 14t22
+5i4 Num{integer} 9m37 9r37 12m20 12r20 13r8
+5i8 I{integer} 10m67 10r67 12r24
+5i10 Val{integer} 11m58 11r58 12r26
+

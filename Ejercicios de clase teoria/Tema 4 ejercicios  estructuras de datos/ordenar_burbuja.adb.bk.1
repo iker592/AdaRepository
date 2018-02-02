@@ -1,0 +1,49 @@
+WITH Ada.Integer_Text_IO;USE Ada.Integer_Text_IO;
+
+PROCEDURE Principal IS
+TYPE T_Vector IS ARRAY (1 .. 16) OF INTEGER;
+
+
+PROCEDURE Ordenar_Seleccion (V : IN OUT T_Vector) IS
+
+
+   FUNCTION Pos_Min_Desde (V : T_Vector; I : Natural) RETURN Integer IS
+      -- pre: I es una posición de V
+      -- post: devuelve la posición del mínimo elemento en V(I..V'last)
+      Pos_Min : Natural := I;
+   BEGIN
+      FOR J IN I+1..V'Last LOOP
+         IF V(J)<V(Pos_Min) THEN
+            Pos_Min:= J;
+         END IF;
+      END LOOP;
+      RETURN Pos_Min;
+   END Pos_Min_Desde;
+
+   K   : Natural;
+   Aux : Integer;
+   BEGIN
+      FOR J IN V'First..V'Last -1 LOOP
+         K:= Pos_Min_Desde(V, J); -- Llamada a Pos_Min_Desde
+         Aux:= V(J);
+         V(J):= V(K);
+         V(K):= Aux; -- Intercambiar V(J) y V(K)
+      END LOOP;
+   END Ordenar_Seleccion;
+
+---------------------------------------------------------
+      PROCEDURE ESCRIBIR_VECTOR (V: IN OUT T_VECTOR) IS
+   BEGIN
+      FOR H IN 1..V'Last LOOP
+         Put(V(H),3);
+      END LOOP;
+   END ESCRIBIR_VECTOR;
+-----------------------------------------------------------
+
+V:T_vector;
+BEGIN
+   V:=(2,5,8,7,9,5,2,3,4,7,1,3,5,6,8,1);
+   Ordenar_Seleccion(V);
+   ESCRIBIR_VECTOR(V);
+END Principal;
+

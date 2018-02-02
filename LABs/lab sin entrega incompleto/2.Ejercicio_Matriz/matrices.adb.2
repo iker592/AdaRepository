@@ -1,0 +1,92 @@
+with Ada.Text_Io, Ada.Integer_Text_Io;
+use Ada.Text_Io, Ada.Integer_Text_Io;
+
+PROCEDURE Matrices IS
+
+   TYPE T_Matriz5x3 IS ARRAY (1 .. 5, 1 .. 3) OF Integer;
+
+   PROCEDURE Cargar_Matriz (
+         M        :    out T_Matriz5x3;
+         Nom_Fich :        String) is
+      -- entrada: secuencia de enteros, S (fichero=Nom_Fich)
+      -- pre: S tiene al menos 15 enteros
+      -- post: M contiene los 15 primeros números de S
+      F : File_Type;
+   BEGIN
+      Open(F, In_File, Nom_Fich);
+      FOR I IN M'RANGE(1) LOOP     -- M'range(1) es el rango de la primera dimensión de M, igual a 1..5
+         FOR J IN M'RANGE(2) LOOP  -- M'range(2) es el rango de la segunda dimensión de M, igual a 1..3
+            Get(F, M(I, J));
+         END LOOP;
+      END LOOP;
+      Close(F);
+   END Cargar_Matriz;
+
+   PROCEDURE Escribir_Matriz (
+         M : T_Matriz5x3) is
+      -- salida: secuencia de enteros, S (SE)
+      -- post: S contiene los 15 números de la matriz M, escritos por filas.
+   BEGIN
+      Put_Line("La matriz es:");
+      FOR I IN M'RANGE(1) LOOP
+         FOR J IN M'RANGE(2) LOOP
+            Put(M(I, J), 3);
+         END LOOP;
+         New_Line;
+      END LOOP;
+   END Escribir_Matriz;
+
+   -- Ejercicio 2: Subprograma a realizar Matriz_Especular, especificación e implementación
+   PROCEDURE Matriz_Especular (M1: T_Matriz5x3; M2: OUT T_Matriz5x3) IS
+
+   BEGIN
+      FOR I IN 1..5 LOOP
+         FOR K IN 1..3 LOOP
+            M_Aux(I,K):= M1 (I,K);
+            Aux_I:=I; Aux_K:K;
+            M2(Aux_I,Aux_K):= M_Aux(I,K);
+         END LOOP;
+      END LOOP;
+
+   END Matriz_Especular;
+
+   -----------------------------------------------------------------------------
+
+   M1, M2 : T_Matriz5x3;
+
+
+begin
+
+   put_line("PRUEBA 1: matriz obtenida del fichero M1.txt");
+   Cargar_Matriz(M1, "M1.txt");
+   Escribir_Matriz(M1);
+   Matriz_Especular(M1, M2);
+   Escribir_Matriz(M2);
+   New_Line;
+   New_Line;
+
+   put_line("PRUEBA 2: matriz obtenida del fichero M2.txt");
+   Cargar_Matriz(M1, "M2.txt");
+   Escribir_Matriz(M1);
+   Matriz_Especular(M1, M2);
+   Escribir_Matriz(M2);
+   New_Line;
+   New_Line;
+
+   put_line("PRUEBA 3: matriz obtenida del fichero M3.txt");
+   Cargar_Matriz(M1, "M3.txt");
+   Escribir_Matriz(M1);
+   Matriz_Especular(M1, M2);
+   Escribir_Matriz(M2);
+   New_Line;
+   New_Line;
+
+   Put_Line("PRUEBA 4: matriz cargada con asignación");
+   M1:=((11,12,13),(21,22,23),(31,32,33),(41,42,43),(51,52,53));
+   Escribir_Matriz(M1);
+   Matriz_Especular(M1, M2);
+   Escribir_Matriz(M2);
+   New_Line;
+   New_Line;
+end Matrices;
+
